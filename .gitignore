@@ -1,0 +1,44 @@
+# Rust
+/backend/target/
+**/*.rs.bk
+Cargo.lock
+
+# Node
+/frontend/node_modules/
+/frontend/dist/
+/frontend/.vite/
+/frontend/tsconfig.tsbuildinfo
+
+# Environment
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Deployment artifacts
+*.tar.gz
+*.zip
+deployment-config.json
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
